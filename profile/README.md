@@ -18,7 +18,7 @@ On the DevOps side, I’m currently working on automated workflows to build **Do
 
 → [Docker Hardened Images for FrankenPHP][cZpLQD]
 
-I also maintain a PHP library that calculates technical indicators for stock trading. The package takes care of arbitrary-precision numbers, keeps an overall low complexity, and is fully unit- and integration-tested.
+I also maintain a PHP library that **calculates technical indicators** for stock trading. The package takes care of arbitrary-precision numbers, keeps an overall low complexity, and is fully unit- and integration-tested.
 
 → [Technical analysis][hd9J7w]
 
