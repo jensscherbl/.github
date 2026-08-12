@@ -20,7 +20,7 @@ On the DevOps side, I’m currently working on automated workflows to build **Do
 
 I also maintain a PHP library that calculates technical indicators for stock trading. The package takes care of arbitrary-precision numbers, keeps an overall low complexity, and is fully unit- and integration-tested.
 
-→ [Technical Analysis][hd9J7w]
+→ [Technical analysis][hd9J7w]
 
 [j4EUKj]: https://github.com/kenshodigital
 [cZpLQD]: https://github.com/kenshodigital/frankenphp
