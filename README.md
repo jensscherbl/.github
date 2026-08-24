@@ -1,3 +1,3 @@
-“I don’t want to live in a world where someone else makes the world a better place better than we do.”
+“The greatness of human accomplishment has always been measured by size. Until now.”
 
 — Gavin Belson, CEO – Hooli, Inc.
