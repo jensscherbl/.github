@@ -2,31 +2,35 @@
 set -euo pipefail
 IFS=$'\n\t'
 
-# Randomly picks a quote.
-QUOTE="$(cat ".github/scripts/quotes/quote-$(( RANDOM % 5 + 1 )).md")"
+# Randomly skips update.
+if (( RANDOM % 2 == 0 )); then
 
-# Exports variables for template.
-export QUOTE
+  # Randomly picks a quote.
+  QUOTE="$(cat ".github/scripts/quotes/quote-$(( RANDOM % 5 + 1 )).md")"
 
-# Renders template.
-# shellcheck disable=SC2016
-envsubst \
-  '${QUOTE}' \
-  < ".github/scripts/templates/README.md" \
-  > "README.md"
+  # Exports variables for template.
+  export QUOTE
 
-# Checks for changes.
-if [[ "${CI:-}" == "true" && -n "$(git status --porcelain)" ]]; then
+  # Renders template.
+  # shellcheck disable=SC2016
+  envsubst \
+    '${QUOTE}' \
+    < ".github/scripts/templates/README.md" \
+    > "README.md"
 
-  # Commits changes.
-  git add .
-  git commit -m "Updates quote"
+  # Checks for changes.
+  if [[ "${CI:-}" == "true" && -n "$(git status --porcelain)" ]]; then
 
-  # Pushes changes. Rebases, waits and
-  # retries three times on conflict.
-  for _ in 1 2 3; do
-    if git push; then break; fi
-    git pull --rebase origin main
-    sleep 3
-  done
+    # Commits changes.
+    git add .
+    git commit -m "Updates quote"
+
+    # Pushes changes. Rebases, waits and
+    # retries three times on conflict.
+    for _ in 1 2 3; do
+      if git push; then break; fi
+      git pull --rebase origin main
+      sleep 3
+    done
+  fi
 fi
