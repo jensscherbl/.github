@@ -1,3 +1,3 @@
-“...making the world a better place through minimal message-oriented transport layers.”
+“Failure is growth. Failure is learning. But sometimes, failure is just failure.”
 
 — Gavin Belson, CEO – Hooli, Inc.
