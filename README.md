@@ -1,3 +1,3 @@
-“The greatness of human accomplishment has always been measured by size. Until now.”
+“Failure is growth. Failure is learning. But sometimes, failure is just failure.”
 
 — Gavin Belson, CEO – Hooli, Inc.
