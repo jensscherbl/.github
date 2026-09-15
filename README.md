@@ -1,3 +1,3 @@
-“Failure is growth. Failure is learning. But sometimes, failure is just failure.”
+“I firmly believe we can only achieve greatness, if first we achieve goodness.”
 
 — Gavin Belson, CEO – Hooli, Inc.
