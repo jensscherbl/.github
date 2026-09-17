@@ -1,3 +1,3 @@
-“I firmly believe we can only achieve greatness, if first we achieve goodness.”
+“The greatness of human accomplishment has always been measured by size. Until now.”
 
 — Gavin Belson, CEO – Hooli, Inc.
