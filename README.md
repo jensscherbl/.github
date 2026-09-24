@@ -1,3 +1,3 @@
-“I firmly believe we can only achieve greatness, if first we achieve goodness.”
+“...making the world a better place through minimal message-oriented transport layers.”
 
 — Gavin Belson, CEO – Hooli, Inc.
